@@ -21,7 +21,7 @@ const Menu = ({showCatMenu,setShowCatMenu,categories}) => {
             return(
                 <React.Fragment key={item.id}>
                     {!!item?.subMenu?(
-                    <li className="cursior-pointer flex items-center gap-2 relative "onMouseEnter={()=>setShowCatMenu(true)}
+                    <li className="cursor-pointer flex items-center gap-2 relative "onMouseEnter={()=>setShowCatMenu(true)}
                     onMouseLeave={()=>setShowCatMenu(false)}>
                         {item.name}
                         <BsChevronDown size={14}/>
@@ -43,7 +43,7 @@ const Menu = ({showCatMenu,setShowCatMenu,categories}) => {
                         )}
                     </li>
                         ) : (
-                        <li className="cursior-pointer">
+                        <li className="cursor-pointer">
                             <Link href={item?.url}>{item.name}</Link>
                             </li>
                     )}
