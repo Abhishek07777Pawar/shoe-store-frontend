@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { fetchDataFromApi } from '@/utils/api'
 import Wrapper from '@/Components/Wrapper'
+
 import ProductCard from '@/Components/ProductCard'
 import { useRouter } from 'next/router'
 import useSWR from 'swr'
