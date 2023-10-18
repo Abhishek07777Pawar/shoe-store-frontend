@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Wrapper from './Components/Wrapper'
+import Wrapper from '@/Components/Wrapper'
 import ReactMarkdown from 'react-markdown'
 import ProductDetailsCarousel from '@/Components/ProductDetailsCarousel'
 import { IoMdHeartEmpty } from 'react-icons/io'
